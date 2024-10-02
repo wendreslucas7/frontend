@@ -1,4 +1,6 @@
-const MAX_INSTALLMENT = 12;
-const MONTHLY_INTEREST_RATE = 0.0167;
+import produtos from './produtos'
 
-export { MAX_INSTALLMENT, MONTHLY_INTEREST_RATE };
+const QTDE_MAX_PARCELAS = 12
+const TAXA_JUROS_MENSAL = 0.0167
+
+export { produtos, QTDE_MAX_PARCELAS, TAXA_JUROS_MENSAL }
